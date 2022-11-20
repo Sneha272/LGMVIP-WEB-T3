@@ -1,0 +1,110 @@
+* {
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+body {
+  background-color: hsl(127deg 100% 97%);
+  height: 70vw;
+}
+
+.form {
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background: #fffaea;
+  display: block;
+  width: 30%;
+  margin: 50px auto;
+  font-size: 23px;
+  box-shadow: 8px 9px rgba(141, 228, 220, 0.8);
+
+}
+
+
+fieldset input {
+  position: relative;
+  float: right;
+  right: 55px;
+  width: 48%;
+  border-radius: 6px;
+  height: 24px;
+  font-size: 19px;
+  /* font-family: 'Baloo Bhai 2'; */
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid black;
+  padding: 0px 14px;
+}
+
+fieldset button {
+  width: 40%;
+  font-size: 23px;
+  display: inline;
+  background-color: black;
+  color: white;
+  height: 42px;
+  margin: 12px;
+  border-radius: 10px;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+fieldset button:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+  background-color: rgb(115, 199, 216);
+  border-radius: 25px;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.footer {
+  width: 1420px;
+  background-color: rgb(204 159 0);
+  position: fixed;
+  bottom: 0;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 21px;
+  border-radius: 6px;
+}
+
+h2 {
+  margin: 12px;
+  font-size: 33px;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 50px auto;
+  background-color: #666666;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid #7c5100;
+  padding: 5px;
+}
+
+th {
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(115, 199, 216);
+}
+
+td {
+  background-color: wheat;
+  font-size: 23px;
+  color: black;
+}
+   
+   
